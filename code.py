@@ -119,7 +119,7 @@ class Main:
 		self.loop = 0
 		try:
 			#yahan pr v apna github link dalna aproval wala
-			plr = requests.get('https://github.com/Jalal1111111/Block/blob/main/Keyy').text
+			plr = requests.get('https://github.com/Jalal1111111/Block/blob/main/Key').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;97mPREMIUM")
